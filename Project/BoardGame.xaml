@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Project.BoardGame"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"    
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid>
+        <Grid x:Name="Gr"  Visibility="Visible">
+
+            <CommandBar>
+                <AppBarButton Icon="Play" Click="OnPlayClick"/>
+                <AppBarButton Icon="Pause" Click="OnPauseClick"/>
+                <AppBarButton Icon="Refresh" Click="OnRestartClick" Name="res"/>
+            </CommandBar>
+
+            <Canvas x:Name="mainCanvas" Margin="-2,40,1,1" Visibility="Visible" >
+                <Canvas.Background>
+                    <ImageBrush ImageSource="/Assets/Arena.jpg" Stretch="Fill"/>
+                </Canvas.Background>
+            </Canvas>
+        </Grid>
+    </Grid>
+
+</Page>

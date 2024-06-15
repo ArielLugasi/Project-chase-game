@@ -1,0 +1,25 @@
+﻿<Application
+    x:Class="Project.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project">
+    <Application.Resources>
+        <Style TargetType="TextBlock">
+            <!--מעצב את הגדרות הטקסט בלוק דרך הAPP-->
+            <Setter Property="Text" Value="Created by Ariel Lugasi"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontFamily" Value="Elephant"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <!--מעצב את הגדרות הכפתור דרך הAPP-->
+            <Setter Property="Content" Value="Start Game"/>
+            <Setter Property="Grid.Row" Value="1"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="FontFamily" Value="Elephant"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </Application.Resources>
+
+</Application>
