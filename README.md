@@ -15,3 +15,5 @@ Gameplay Dynamics: The challenge increases as the number of enemies decreases, m
 User Interface: The game provides visual and possibly auditory feedback to indicate when the player is caught or when enemies are disqualified.
 
 This setup creates an engaging gameplay loop where the player must navigate carefully to avoid enemies and strategically position enemies to disqualify each other, ultimately aiming to win by eliminating all enemies from the game.
+![Untitled](https://github.com/ArielLugasi/Project-chase-game/assets/96828229/5e90ee31-99f4-410a-9eed-258b129b906a)
+![Untitlaaed](https://github.com/ArielLugasi/Project-chase-game/assets/96828229/07b090d5-18ff-4554-89ba-1270866a5dc8)
